@@ -1,13 +1,13 @@
-C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\bin\Release\netcoreapp2.2\appsettings.Development.json
-C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\bin\Release\netcoreapp2.2\appsettings.json
-C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\bin\Release\netcoreapp2.2\Properties\launchSettings.json
-C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\bin\Release\netcoreapp2.2\OrchardSite.deps.json
-C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\bin\Release\netcoreapp2.2\OrchardSite.runtimeconfig.json
-C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\bin\Release\netcoreapp2.2\OrchardSite.runtimeconfig.dev.json
-C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\bin\Release\netcoreapp2.2\OrchardSite.dll
-C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\bin\Release\netcoreapp2.2\OrchardSite.pdb
-C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\bin\Release\netcoreapp2.2\OrchardSite.Views.dll
-C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\bin\Release\netcoreapp2.2\OrchardSite.Views.pdb
+C:\app\appsettings.Development.json
+C:\app\appsettings.json
+C:\app\Properties\launchSettings.json
+C:\app\OrchardSite.deps.json
+C:\app\OrchardSite.runtimeconfig.json
+C:\app\OrchardSite.runtimeconfig.dev.json
+C:\app\OrchardSite.dll
+C:\app\OrchardSite.pdb
+C:\app\OrchardSite.Views.dll
+C:\app\OrchardSite.Views.pdb
 C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\obj\Release\netcoreapp2.2\OrchardSite.csprojAssemblyReference.cache
 C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\obj\Release\netcoreapp2.2\OrchardSite.csproj.CoreCompileInputs.cache
 C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\obj\Release\netcoreapp2.2\OrchardSite.RazorAssemblyInfo.cache
@@ -17,6 +17,7 @@ C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\obj\Release
 C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\obj\Release\netcoreapp2.2\OrchardSite.TagHelpers.input.cache
 C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\obj\Release\netcoreapp2.2\OrchardSite.TagHelpers.output.cache
 C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\obj\Release\netcoreapp2.2\OrchardSite.RazorCoreGenerate.cache
+C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\obj\Release\netcoreapp2.2\Razor\Pages\Actividades.cshtml.g.cs
 C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\obj\Release\netcoreapp2.2\Razor\Pages\Index.cshtml.g.cs
 C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\obj\Release\netcoreapp2.2\Razor\Pages\_Layout.cshtml.g.cs
 C:\Users\diox_\Desktop\Nueva carpeta\orchard\OrchardSite\OrchardSite\obj\Release\netcoreapp2.2\OrchardSite.RazorTargetAssemblyInfo.cache

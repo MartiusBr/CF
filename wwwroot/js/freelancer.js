@@ -56,7 +56,7 @@
     focus: '#username',
     modal: true
   });
-  $('.dropdown-item').magnificPopup({
+  $('.nosotros').magnificPopup({
     type: 'inline',
     preloader: false,
     focus: '#username',

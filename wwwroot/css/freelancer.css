@@ -104,8 +104,8 @@ section h2 {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   font-weight: 400;
   font-family: 'Fira Sans', sans-serif;
 }
@@ -121,9 +121,10 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: #000;
   height: 56px;
   padding: 16px;
+  font-weight:bold;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -135,12 +136,16 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: #000;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
+}
+
+.navbar-brand > img {
+    width: 150px;
 }
 
 @media (min-width: 992px) {
@@ -160,11 +165,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18BC9C;
+    background: #000;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18BC9C;
+    background: #000;
   }
   #mainNav.navbar-shrink {
     padding-top: 0rem;
@@ -173,6 +178,9 @@ section h2 {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
+  .navbar-brand > img{
+    width : 180px;
+  }  
 }
 
 header.masthead {
@@ -343,7 +351,7 @@ a {
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #2C3E50;
 }
 
 .btn {
@@ -355,7 +363,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #cccccc !important;
 }
 
 .text-primary {
@@ -386,12 +394,25 @@ a:focus, a:hover, a:active {
   border-color: #1a252f;
 }
 
-/* CUSTOM SHIT MEN */
+/* --------------------------------------- CUSTOM SHIT MEN --------------------------------------------*/
+#oficinas {
+    background-image: url("../img/portfolio/ofi-pattern.png");
+    background-repeat:repeat;
+}
+
+.font-size-10 {
+    font-size : 10px;
+}
+
 section#contact{
   padding-bottom: 1em;
 }
 section#oficinas{
   padding-top: 0;
+}
+
+.bg-transp {
+    background: rgba(0, 0, 0, 0.692);
 }
 /*------------------------------------------ SOCIAL SHIT --------------------------------------------- */
 
@@ -466,7 +487,8 @@ section#oficinas{
 #about{
   background:  url("../img/portfolio/nosotros2-arreglado.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position:center;
 }
 
 .carousel-item{
@@ -490,6 +512,59 @@ section#oficinas{
     padding-left: 0;
     padding-right: 0;    
   }
+  /*SOCIAL SHIT IN PHONES*/
+    .social ul {
+        position: fixed;
+        left: 0;
+        top: unset;
+        bottom: -20px;
+        list-style: none;
+        color: #000;
+        z-index: 99999;
+        transform: rotate(0deg);
+    }
+
+        .social ul li {
+            float: right;
+        }
+
+        .social ul li a {
+                position: relative;
+                float: left;
+                background: #fff000;
+                width: 48px;
+                height: 48px;
+                text-align: center;
+                color: #000;
+                padding: 2px 0px 0px 0px;
+         }
+
+        .social ul li a:hover {
+                color: #fff;
+        }
+
+    .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram, .fa-pinterest, .fa-github, .fa-flickr, .fa-linkedin {
+        padding: 5px 5px 5px 8px;
+    }
+
+    /* Pseudo Elements */
+    .social ul li a:after {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 1px;
+        height: 1px;
+        /*border: 24px solid transparent;*/
+        /*border-bottom: 24px solid #dddfde;*/
+        z-index: 9999;
+    }
+
+    .rot {
+        transform: rotate(0deg);
+    }
+
+  /*SOCIAL SHIT ENDS HERE*/
 }
 
 @media (max-width: 992px){
@@ -497,6 +572,7 @@ section#oficinas{
     margin-left: auto;
     margin-right: auto;
   }
+
 }
 
 

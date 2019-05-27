@@ -68,7 +68,7 @@
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[1.4.10, )"
+              "version": "[1.7.9, )"
             },
             "OrchardCore.Application.Cms.Targets": {
               "target": "Package",
