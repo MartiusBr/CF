@@ -1,7 +1,6 @@
 ﻿@page  "/"
 
 @{
-
     Layout = "_Layout";
 }
 
@@ -20,15 +19,17 @@
                 <div class="carousel-caption d-none d-md-block">
 
                     <div class="row">
-                        <div class="col-lg-4 ml-auto mr-1 p-4 bg-primary">
-                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
-                        </div>
-                        <div class="col-lg-4 mr-auto ml-1 p-4 bg-primary">
-                            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                        <div class="col-lg-8 py-3 px-5 bg-transp mx-auto">
+                            <p class="lead">
+                                <i class="fas fa-arrow-circle-right"></i> Gestión<br/>
+                                <i class="fas fa-arrow-circle-right"></i> Vinculación y Tamizaje<br/>
+                                <i class="fas fa-arrow-circle-right"></i> Incidencia Política<br/>
+                                <i class="fas fa-arrow-circle-right"></i> Capacitación
+                            </p>
                         </div>
                     </div>
                     <div class="text-center mt-4">
-                        <a class="btn btn-xl btn-outline-light ftr" href="#">
+                        <a class="btn btn-xl btn-outline-light ftr" href="http://fb.com/MCC-Chacla-Forever-513978959017333/">
                             <i class="fas fa-notes-medical mr-2"></i>
                             Hazte la prueba
                         </a>
@@ -41,10 +42,16 @@
                 <div class="carousel-caption d-none d-md-block">
 
                     <!-- <div class="row">
-                      <div class="col-lg-12 ml-auto mr-1 p-4 ">
-                        <img src="https://www.chaclaforever.com/wp-content/uploads/2019/05/cropped-real.png" alt="">
-                      </div>
-                    </div> -->
+                          <div class="col-lg-12 ml-auto mr-1 p-4 ">
+                            <img src="https://www.chaclaforever.com/wp-content/uploads/2019/05/cropped-real.png" alt="">
+                          </div>
+                        </div> -->
+                    @*<div class="col-lg-8 py-3 px-5 bg-transp mx-auto">
+                        <p class="lead">
+                            <i class="fas fa-user-friends text-capitalize"></i>  Programa: "Expansión de la respuesta nacional al VIH en poblaciones clave y vulnerables de ámbitos urbanos y amazónicos del Perú".
+                        </p>
+                    </div>*@
+
                     <div class="text-center mt-4">
                         <a class="btn btn-xl btn-outline-light ftr" href="#">
                             <i class="fas fa-notes-medical mr-2"></i>
@@ -69,11 +76,11 @@
 <!-- Portfolio Grid Section -->
 <section class="portfolio pt-5" id="portfolio">
     <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Servicios</h2>
+        <h3 class="text-center text-uppercase text-secondary mb-0">Servicios</h3>
         <hr class="star-dark mb-5">
         <div class="row">
             <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto mb-2" href="#portfolio-modal-1">
+                <a class="portfolio-item d-block mx-auto mb-2" href="#portfolio-modal-6">
                     <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                         <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                             <i class="fas fa-search-plus fa-3x"></i>
@@ -81,7 +88,7 @@
                     </div>
                     <img class="img-fluid" src="img/portfolio/prueba.png" alt="">
                 </a>
-                <h4 class="text-uppercase text-center mb-4">Prueba de VHI</h4>
+                <h4 class="text-uppercase text-center mb-4">Prueba de VIH</h4>
             </div>
             <div class="col-md-6 col-lg-4">
                 <a class="portfolio-item d-block mx-auto mb-2" href="#portfolio-modal-2">
@@ -105,7 +112,7 @@
                 </a>
                 <h4 class="text-uppercase text-center mb-4">Eventos</h4>
             </div>
-            <div class="col-md-6 col-lg-4">
+            @*<div class="col-md-6 col-lg-4">
                 <a class="portfolio-item d-block mx-auto mb-2" href="#portfolio-modal-4">
                     <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                         <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -115,7 +122,7 @@
                     <img class="img-fluid" src="~/img/portfolio/calendar.png" alt="">
                 </a>
                 <h4 class="text-uppercase text-center mb-4">Actividades</h4>
-            </div>
+            </div>*@
         </div>
     </div>
 </section>
@@ -123,10 +130,10 @@
 <!-- About Section -->
 <section class="text-white mb-0" id="about">
     <div class="container">
-        <h2 class="text-center text-uppercase text-white">Nosotros</h2>
+        <h3 class="text-center text-uppercase text-white">Nosotros</h3>
         <hr class="star-light mb-5">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 ml-auto p-1 m-1 bg-transp">
+        <div class="row us-font">
+            <div class="col-lg-4 col-md-6 ml-auto p-3 m-1 bg-transp">
                 <p class="lead">
                     La Asociación Civil CHACLA´ FOREVER, se formó en el año 2000,
                     con un grupo de amigos deportistas gays y mujeres trans, preocupados por los múltiples
@@ -134,7 +141,7 @@
                     prevención de ITS/VIH/SIDA.
                 </p>
             </div>
-            <div class="col-lg-4 col-md-6 mr-auto p-1 m-1 bg-transp">
+            <div class="col-lg-4 col-md-6 mr-auto p-3 m-1 bg-transp">
                 <p class="lead">
                     Es así que empezamos a organizar campeonatos de voley dirigido
                     a la comunidad LTGBI, el cual se invitaba a distintas organizaciones y ONG,
@@ -203,21 +210,20 @@
 <!-- Contact Section -->
 <section id="oficinas">
     <div class="container col-sm-12 pt-5">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Oficina</h2>
+        <h3 class="text-center text-uppercase text-secondary mb-0">Oficina</h3>
         <hr class="star-dark mb-5">
         <div class="row">
             <div class="col-xl-3 col-lg-6 col-sm-8 col-xs-6 ml-auto col-mx-auto mb-4 mine" style="height: 450px;">
                 <div class="d-flex p-2 bg-transparent rounded-top h-25">
-                    <div class="container m-0 p-1 text-center">
+                    <div class="container m-0 p-1 text-center us-font">
                         <h5 class="text-uppercase mb-1">Dirección</h5>
                         <p class="lead mb-0">
-                            Av. José Carlos Mariátegui Mz. T Lt. 14,
-                            Chaclacayo, frente al paradero Miguel Grau
+                            Urb. Miguel Grau Mz. T Lote 14 - Chaclacayo
                         </p>
                     </div>
                 </div>
-                <div class="d-flex p-4 bg-transp h-75">
-                    <img src="img/portfolio/local.png" class="rounded img-fluid" alt="Responsive image">
+                <div class="d-flex p-2 bg-transp h-75">
+                    <img src="~/img/portfolio/Ofi-nueva.png" class="rounded img-fluid" alt="Responsive image">
                 </div>
             </div>
             <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12 col-mx-auto mr-auto mb-4 mapa">
