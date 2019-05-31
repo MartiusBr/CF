@@ -66,7 +66,7 @@
     </div>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-light fixed-top" id="mainNav">
-        <div class="container mr-0">
+        <div class="container mr-0 pr-0">
             <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a> -->
             <a class="navbar-brand" href="/">
                 <img src="~/img/portfolio/logo_cro.png" alt="">
@@ -76,45 +76,56 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <!-- BOTON SERVICIOS -->
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">
-                            <i class="fas fa-tasks"></i> Servicios
-                        </a>
-                    </li>
+
                     <!-- DROPDOWN NOSOTROS -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-user"></i> Nosotros
+                            <i class="fas fa-users"></i> Nosotros
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="nosotros dropdown-item" href="#">Historia</a>
                             <a class="nosotros dropdown-item" href="#mision-vision">Mision y Vision</a>
-                            <a class="nosotros dropdown-item" href="#">Principios-Valores</a>
-                            <a class="nosotros dropdown-item" href="#">Política de Calidad</a>
+                            <a class="nosotros dropdown-item" href="#mision-vision">Objetivos</a>
                         </div>
                     </li>
+
+                    <!-- DROPDOWN SERVICIOS -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user"></i> Servicios
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/Servicios">Vinculación y Tamizaje</a>
+                            <a class="dropdown-item" href="/Servicios">Capacitación</a>
+                            <a class="dropdown-item" href="/Servicios">Incidencia Política</a>
+                        </div>
+                    </li>
+
+                    <!-- DROPDOWN PROYECTOS -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle rounded" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-home"></i> Proyectos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/proyectos">Proyectos de Sustentabilidad</a>
+                            <a class="dropdown-item" href="/proyectos">Productos</a>
+                        </div>
+                    </li>
+                    
                     <!-- BOTON CONTÁCTANOS -->
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">
+                        <a class="nav-link py-2 px-0 px-lg-1 rounded js-scroll-trigger" href="#contact">
                             <i class="fas fa-id-card"></i> Contáctanos
                         </a>
                     </li>
-                    <!-- DROPDOWN OFICINAS -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-home"></i> Oficinas
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item js-scroll-trigger" href="#oficinas">Oficina en Chaclacayo</a>
-                        </div>
-                    </li>
+
                     <!-- BOTON ACTIVIDADES -->
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/actividades">
+                        <a class="nav-link py-2 px-0 px-lg-1 rounded js-scroll-trigger" href="/actividades">
                             <i class="fas fa-id-card"></i> Actividades
                         </a>
                     </li>
+
                 </ul>
             </div>
         </div>
@@ -252,8 +263,8 @@
                         <h2 class="text-secondary mb-0">Mision y Visión</h2>
                         <hr class="star-dark mb-4">
 
-                        <div class="row m-3 pt-5">
-                            <div class="col-xl-4 col-lg-6 col-md-12 mx-auto">
+                        <div class="row m-3 pt-5 fondo-mv">
+                            <div class="col-xl-4 col-lg-6 col-md-12 mx-auto p-3 text-white bg-transp mb-5">
                                 <h4>Misión</h4>
                                 <h6 class="mb-2 text-left">
                                     Al año 2020 nos vemos fortalecidos y reconocidos institucionalmente como MCC ejecutando proyectos en beneficio de
@@ -262,7 +273,7 @@
                                     fortalecida en la lucha de la estigma y discriminación; promoviendo nuestros derechos humanos.
                                 </h6>
                             </div>
-                            <div class="col-xl-4 col-lg-6 col-md-12 mx-auto">
+                            <div class="col-xl-4 col-lg-6 col-md-12 mx-auto p-3 text-white bg-transp mb-5">
                                 <h4>Visión</h4>
                                 <h6 class="mb-2 text-left">
                                     Como MCC buscamos el fortalecimiento de la organizaiones LGTBI de Lima Este y el reconocimiento e igualdad de los
@@ -291,7 +302,7 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <h2 class="text-secondary text-black-50 mb-0">Talleres Deportivos</h2>
+                        <h2 class="text-secondary text-black-50 mb-0">Talleres</h2>
                         <hr class="star-dark mb-5">
                             <div class="container">
 
@@ -303,7 +314,7 @@
                                 </div>
                         </div>
                         <p class="mb-5 lead us-font">En Chacla Forever ofrecemos una gran varidad de talleres gratuitos deportivos y sociales para todos quienes quieran ser parte de nuestra comunidad.</p>
-                        <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="/talleres">
+                        <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="/Servicios">
                             <i class="fa fa-close"></i>
                             Buscar más talleres
                         </a>
@@ -323,7 +334,7 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <h2 class="text-secondary text-uppercase mb-0">Eventos</h2>
+                        <h2 class="text-secondary text-uppercase mb-0">Actividades</h2>
                         <hr class="star-dark mb-5">
                         <img class="img-fluid mb-5" src="~/img/portfolio/portfolio/eventos.png" alt="">
                         <h5 class="mb-5">Programa: "Expansión y la respuesta nacional al VIH en poblaciones clave y vulnerables de ámbitos urbanos y amazónicos del Perú"</h5>
@@ -410,7 +421,7 @@
 
     <!-- Mision-Vision Modal 7 -->
     <div class="portfolio-modal mfp-hide" id="mision-vision-modal-6">
-        <div class="portfolio-modal-dialog bg-white">
+        <div class="portfolio-modal-dialog">
             <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
                 <i class="fa fa-3x fa-times"></i>
             </a>

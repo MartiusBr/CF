@@ -49,7 +49,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: transparent;
 }
 
 hr.star-dark {
@@ -124,7 +124,7 @@ section h2 {
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #000;
   height: 56px;
-  padding: 16px;
+  padding: 11px;
   font-weight:bold;
 }
 
@@ -399,9 +399,16 @@ a:focus, a:hover, a:active {
 
 /* --------------------------------------- CUSTOM SHIT MEN --------------------------------------------*/
 
+.fondo-mv {
+    background-image: url("../img/portfolio/portfolio/mision-vision.png");
+    background-position : center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
 #oficinas {
     background-image: url("../img/portfolio/ofi-pattern.png");
-    background-repeat:repeat;
+    background-repeat: repeat;
 }
 
 .font-size-10 {
