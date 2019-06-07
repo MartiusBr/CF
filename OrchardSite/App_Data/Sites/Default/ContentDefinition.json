@@ -82,41 +82,7 @@
           "PartName": "Article",
           "Name": "Article",
           "Settings": {
-            "Position": "2"
-          }
-        },
-        {
-          "PartName": "AutoroutePart",
-          "Name": "AutoroutePart",
-          "Settings": {
-            "ContentIndexSettings": {
-              "Included": false,
-              "Stored": false,
-              "Analyzed": false,
-              "Sanitized": false,
-              "Tokenized": false,
-              "Template": null
-            },
-            "Pattern": "{{ ContentItem | display_text | slugify }}",
-            "AllowCustomPath": "True",
-            "ShowHomepageOption": "True",
             "Position": "1"
-          }
-        },
-        {
-          "PartName": "HtmlBodyPart",
-          "Name": "HtmlBodyPart",
-          "Settings": {
-            "ContentIndexSettings": {
-              "Included": false,
-              "Stored": false,
-              "Analyzed": false,
-              "Sanitized": false,
-              "Tokenized": false,
-              "Template": null
-            },
-            "Editor": "Wysiwyg",
-            "Position": "3"
           }
         },
         {
@@ -125,6 +91,11 @@
           "Settings": {
             "Position": "0"
           }
+        },
+        {
+          "PartName": "AliasPart",
+          "Name": "AliasPart",
+          "Settings": {}
         }
       ]
     },
@@ -615,6 +586,26 @@
             "DisplayName": "Subtitle",
             "Position": "0"
           }
+        },
+        {
+          "FieldName": "MediaField",
+          "Name": "Banner",
+          "Settings": {
+            "DisplayName": "Banner",
+            "Editor": null,
+            "DisplayMode": null,
+            "ContentIndexSettings": {
+              "Included": false,
+              "Stored": false,
+              "Analyzed": false,
+              "Sanitized": false,
+              "Tokenized": false,
+              "Template": null
+            },
+            "Hint": null,
+            "Required": true,
+            "Multiple": false
+          }
         }
       ]
     },
@@ -626,7 +617,8 @@
           "FieldName": "TextField",
           "Name": "Subtitle",
           "Settings": {
-            "DisplayName": "Subtitle"
+            "DisplayName": "Subtitle",
+            "Position": "0"
           }
         }
       ]
@@ -746,5 +738,5 @@
       ]
     }
   ],
-  "Serial": 67
+  "Serial": 124
 }
