@@ -40,7 +40,8 @@
                         string imagepath = (String)Post.Content.BlogPost.Banner.Paths[0];
                         DateTime fecha_Post = (DateTime)Post.PublishedUtc;
                         string day = fecha_Post.ToString("dd");
-                        string month = fecha_Post.ToString("MMMM");                       
+                        string month = fecha_Post.ToString("MMMM");
+                        string day_month = fecha_Post.ToString("dd/MM");
                     }
                     <div class="container-fluid h-100 bg-dark rounded">
                         <div style="
@@ -71,8 +72,15 @@
                             <h3 class="display-5 mx-5 text-uppercase">@Post</h3>
                             <p class="text-warning font-weight-bold">@Post.Content.BlogPost.Subtitle.Text</p>
                         </div>
-                        <p class="text-info text-justify">@Orchard.MarkdownToHtml(markdown)</p>
-                        <img class="mt-2 mb-3 rounded" src="@Orchard.AssetUrl(imagepath, width: 300)" alt="Alternate Text" />
+                        @if (string.IsNullOrEmpty(markdown))
+                        {
+                            <p class="text-warning text-center">...</p>
+                        }
+                        else { 
+                            <p class="text-info text-justify">@Orchard.MarkdownToHtml(markdown)</p> 
+                        }
+                      
+                        <img class="rounded img-fluid mb-4" src="@Orchard.AssetUrl(imagepath)" alt="imagen"/>
                     </div>
 
                 </div>
