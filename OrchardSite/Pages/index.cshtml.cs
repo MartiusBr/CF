@@ -28,19 +28,19 @@ namespace OrchardSite.Pages
             correo = Request.Form[nameof(correo)];
             numCel = Request.Form[nameof(numCel)];
             mensaje = Request.Form[nameof(mensaje)];
-            host = Request.Host.ToString();
-            bool seguro = Request.IsHttps;
-            string protocolo = Request.Protocol;
-            String headers = Request.Headers.ToString();
+            //host = Request.Host.ToString();
+            //bool seguro = Request.IsHttps;
+            //string protocolo = Request.Protocol;
+            //String headers = Request.Headers.ToString();
             
 
             var message = new MimeMessage();
             message.From.Add(new MailboxAddress("Test Mensaje", "chaclaxforever@gmail.com"));
             message.To.Add(new MailboxAddress("martius", "martinballasco@gmail.com"));
-            message.Subject = "mail de prueba en asp.net core";
+            message.Subject = "Contacto en ChaclaForever";
             message.Body = new TextPart("plain")
             {
-                Text = $"Hola, hay un nuevo contacto! \n" +
+                Text = $"Hola, soy: \n" +
                        $"Nombre : {nombre} \n" +
                        $"Correo : {correo} \n" +
                        $"Número Celular : {numCel} \n" +
@@ -49,12 +49,10 @@ namespace OrchardSite.Pages
                        //$"HTTPS ? : {seguro} \n" +
                        //$"Protocolo : {protocolo} \n" +
                        //$"headers : {headers}"
-
-
             };
             using (var client = new SmtpClient())
             {
-                client.Connect("smtp.gmail.com", 587, false);
+                client.Connect("smtp.gmail.com", 587, true);
                 client.Authenticate("chaclaxforever@gmail.com", "chaclax123$");
                 client.Send(message);
                 client.Disconnect(true);
