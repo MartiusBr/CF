@@ -32,31 +32,38 @@ namespace OrchardSite.Pages
             //bool seguro = Request.IsHttps;
             //string protocolo = Request.Protocol;
             //String headers = Request.Headers.ToString();
-            
 
-            var message = new MimeMessage();
-            message.From.Add(new MailboxAddress("Test Mensaje", "chaclaxforever@gmail.com"));
-            message.To.Add(new MailboxAddress("martius", "martinballasco@gmail.com"));
-            message.Subject = "Contacto en ChaclaForever";
-            message.Body = new TextPart("plain")
+            try
             {
-                Text = $"Hola, soy: \n" +
-                       $"Nombre : {nombre} \n" +
-                       $"Correo : {correo} \n" +
-                       $"Número Celular : {numCel} \n" +
-                       $"Mensaje : {mensaje}+\n"+ 
-                       $"Host   : {host} \n" 
-                       //$"HTTPS ? : {seguro} \n" +
-                       //$"Protocolo : {protocolo} \n" +
-                       //$"headers : {headers}"
-            };
-            using (var client = new SmtpClient())
-            {
-                client.Connect("smtp.gmail.com", 587, true);
-                client.Authenticate("chaclaxforever@gmail.com", "chaclax123$");
-                client.Send(message);
-                client.Disconnect(true);
+                var message = new MimeMessage();
+                message.From.Add(new MailboxAddress("Test Mensaje", "chaclaxforever@gmail.com"));
+                message.To.Add(new MailboxAddress("martius", "martinballasco@gmail.com"));
+                message.Subject = "Contacto en ChaclaForever";
+                message.Body = new TextPart("plain")
+                {
+                    Text = $"Hola, soy: \n" +
+                           $"Nombre : {nombre} \n" +
+                           $"Correo : {correo} \n" +
+                           $"Número Celular : {numCel} \n" +
+                           $"Mensaje : {mensaje}+\n" +
+                           $"Host   : {host} \n"
+                    //$"HTTPS ? : {seguro} \n" +
+                    //$"Protocolo : {protocolo} \n" +
+                    //$"headers : {headers}"
+                };
+                using (var client = new SmtpClient())
+                {
+                    client.Connect("smtp.gmail.com", 465, true);
+                    client.Authenticate("chaclaxforever@gmail.com", "chaclax123$");
+                    client.Send(message);
+                    client.Disconnect(true);
+                }
             }
+            catch (Exception)
+            {
+                throw;
+            }
+            
            
 
         }
