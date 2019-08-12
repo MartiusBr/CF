@@ -45,8 +45,8 @@ namespace OrchardSite.Pages
                            $"Nombre : {nombre} \n" +
                            $"Correo : {correo} \n" +
                            $"Número Celular : {numCel} \n" +
-                           $"Mensaje : {mensaje}+\n" +
-                           $"Host   : {host} \n"
+                           $"Mensaje : {mensaje}+\n" 
+                    //       $"Host   : {host} \n"
                     //$"HTTPS ? : {seguro} \n" +
                     //$"Protocolo : {protocolo} \n" +
                     //$"headers : {headers}"
@@ -59,9 +59,9 @@ namespace OrchardSite.Pages
                     client.Disconnect(true);
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw;
+                throw e;
             }
             
            

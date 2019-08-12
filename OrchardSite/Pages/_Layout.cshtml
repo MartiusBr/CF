@@ -33,219 +33,184 @@
 
 <body id="page-top">
 
-    <!-- SOCIAL SHIT -->
-    <div class="social">
-        <ul>
-            <li class="facebook">
-                <a href="fb.com/MCC-Chacla-Forever-513978959017333/" target="_blank">
-                    <!-- <i class="fa fa-facebook fa-2x rot"></i> -->
-                    <i class="fab fa-facebook-f fa-2x rot"></i>
-                </a>
-            </li>
-            <li class="twitter">
-                <a href="https://twitter.com/LimaGayNet" target="_blank">
-                    <i class="fab fa-twitter fa-2x rot"></i>
-                </a>
-            </li>
-            <li class="youtube">
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-                    <i class="fab fa-youtube fa-2x rot"></i>
-                </a>
-            </li>
-            <li class="instagram">
-                <a href="https://www.instagram.com/lgbt/?hl=es-la" target="_blank">
-                    <i class="fab fa-instagram fa-2x rot"></i>
-                </a>
-            </li>
-            <li class="pinterest">
-                <a href="#" target="_blank">
-                    <i class="fab fa-pinterest fa-2x rot"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-light fixed-top" id="mainNav">
-        <div class="container mr-0 pr-0">
-            <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a> -->
-            <a class="navbar-brand" href="/">
-                <img src="~/img/portfolio/logo_cro.png" alt="">
-            </a>
-            <button class="navbar-toggler navbar-toggler-right text-uppercase bg-dark text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+    <div class="cf-wrapper">
 
-                    <!-- DROPDOWN NOSOTROS -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-users"></i> Nosotros
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="nosotros dropdown-item" href="#historia">Historia</a>
-                            <a class="nosotros dropdown-item" href="#mision-vision">Mision y Vision</a>
-                            <a class="nosotros dropdown-item" href="#objetivos">Objetivos</a>
-                        </div>
-                    </li>
+        <!-- SOCIAL SHIT -->
+        @*<div class="social">
+            <ul>
+                <li class="facebook">
+                    <a href="fb.com/MCC-Chacla-Forever-513978959017333/" target="_blank">
+                         <i class="fa fa-facebook fa-2x rot"></i>
+                        <i class="fab fa-facebook-f fa-2x rot"></i>
+                    </a>
+                </li>
+                <li class="twitter">
+                    <a href="https://twitter.com/LimaGayNet" target="_blank">
+                        <i class="fab fa-twitter fa-2x rot"></i>
+                    </a>
+                </li>
+                <li class="youtube">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                        <i class="fab fa-youtube fa-2x rot"></i>
+                    </a>
+                </li>
+                <li class="instagram">
+                    <a href="https://www.instagram.com/lgbt/?hl=es-la" target="_blank">
+                        <i class="fab fa-instagram fa-2x rot"></i>
+                    </a>
+                </li>
+                <li class="pinterest">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-pinterest fa-2x rot"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>*@
 
-                    <!-- DROPDOWN SERVICIOS -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-user"></i> Servicios
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="/servicios">Vinculación y Tamizaje</a>
-                            <a class="dropdown-item" href="/servicios">Capacitación</a>
-                            <a class="dropdown-item" href="/servicios">Incidencia Política</a>
-                        </div>
-                    </li>
+        <!-- Navigation -->
+        <header class="brand-header">
+            <div class="d-flex">
+                <div class="ml-auto mr-auto py-2" style="width:150px">
+                    <a href="/">
+                        <img class="img-fluid" src="~/img/portfolio/logo_cro.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </header>
 
-                    <!-- DROPDOWN PROYECTOS -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle rounded" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-home"></i> Proyectos
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="/proyectos">Proyectos de Sustentabilidad</a>
-                            <a class="dropdown-item" href="/productos">Productos</a>
-                        </div>
-                    </li>
+        <div class="d-flex justify-content-center simple-header" id="myHeader">   
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 align-content-center justify-content-center">
                     
-                    <!-- BOTON CONTÁCTANOS -->
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-2 px-0 px-lg-1 rounded js-scroll-trigger" href="#contact">
-                            <i class="fas fa-id-card"></i> Contáctanos
-                        </a>
-                    </li>
+                    <button class="navbar-toggler pb-2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center text-center bg-light" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
 
-                    <!-- BOTON ACTIVIDADES -->
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-2 px-0 px-lg-1 rounded js-scroll-trigger" href="/actividades">
-                            <i class="fas fa-id-card"></i> Actividades
-                        </a>
-                    </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-users"></i> Nosotros
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="nosotros dropdown-item" href="/Nosotros">Historia</a>
+                                    <a class="nosotros dropdown-item" href="/Nosotros">Mision y Vision</a>
+                                    <a class="nosotros dropdown-item" href="/Nosotros">Objetivos</a>
+                                </div>
+                            </li>
 
-                </ul>
-            </div>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-user"></i> Servicios
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="/servicios">Vinculación y Tamizaje</a>
+                                    <a class="dropdown-item" href="/servicios">Capacitación</a>
+                                    <a class="dropdown-item" href="/servicios">Incidencia Política</a>
+                                </div>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle rounded" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-home"></i> Proyectos
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="/proyectos">Proyectos de Sustentabilidad</a>
+                                    <a class="dropdown-item" href="/productos">Productos</a>
+                                </div>
+                            </li>
+
+
+                            <li class="nav-item mx-0 mx-lg-1">
+                                <a class="nav-link py-2 px-0 px-lg-1 rounded js-scroll-trigger" href="#contact">
+                                    <i class="fas fa-id-card"></i> Contáctanos
+                                </a>
+                            </li>
+
+
+                            <li class="nav-item mx-0 mx-lg-1">
+                                <a class="nav-link py-2 px-0 px-lg-1 rounded js-scroll-trigger" href="/actividades">
+                                    <i class="fas fa-id-card"></i> Actividades
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>  
+                     
         </div>
-    </nav>
-
-    @RenderBody()
-
-    <!-- Portfolio Grid Section -->
-    @*<section class="portfolio pt-5 mt-5" id="portfolio">
-        <div class="container">
-            <h2 class="text-center text-uppercase text-secondary mb-0">Servicios</h2>
-            <hr class="star-dark mb-5">
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto mb-2" href="#portfolio-modal-1">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fas fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="img/portfolio/prueba.png" alt="">
-                    </a>
-                    <h4 class="text-uppercase text-center mb-4">Prueba de VHI</h4>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto mb-2" href="#portfolio-modal-2">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fas fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="img/portfolio/deportes.png" alt="">
-                    </a>
-                    <h4 class="text-uppercase text-center mb-4">Talleres gratuitos</h4>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto mb-2" href="#portfolio-modal-3">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fas fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="img/portfolio/eventos.png" alt="">
-                    </a>
-                    <h4 class="text-uppercase text-center mb-4">Eventos</h4>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fas fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="img/portfolio/game.png" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>*@
 
 
-    <!-- Footer -->
-    <footer class="footer text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 mb-5 mb-lg-0" style="overflow: hidden">
-                    <h4 class="text-uppercase mb-4">Nuestro Facebook</h4>
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMCC-Chacla-Forever-513978959017333%2F%3Fref%3Dbr_rs&tabs&width=340&height=70&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" 
-                            width="340" height="70" style="border:none;overflow:hidden" 
-                            scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
-                    </iframe>
-                </div>
-                <div class="col-md-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Encuentranos en:</h4>
-                    <ul class="list-inline mb-0">
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://fb.com/MCC-Chacla-Forever-513978959017333/">
-                                <i class="fab fa-fw fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                                <i class="fab fa-fw fa-google-plus-g"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                                <i class="fab fa-fw fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                                <i class="fab fa-fw fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                                <i class="fab fa-fw fa-dribbble"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h4 class="text-uppercase mb-4">También te puede Interesar</h4>
-                    <a href="http://startbootstrap.com"><i class="fas fa-arrow-right"></i> lavidaesuna.pe</a>
+       
+
+        @RenderBody()
+
+
+        <!-- Footer -->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-5 mb-lg-0" style="overflow: hidden">
+                        <h4 class="text-uppercase mb-4">Nuestro Facebook</h4>
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMCC-Chacla-Forever-513978959017333%2F%3Fref%3Dbr_rs&tabs&width=340&height=70&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+                                width="340" height="70" style="border:none;overflow:hidden"
+                                scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
+                        </iframe>
+                    </div>
+                    <div class="col-md-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Encuentranos en:</h4>
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://fb.com/MCC-Chacla-Forever-513978959017333/">
+                                    <i class="fab fa-fw fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                                    <i class="fab fa-fw fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                                    <i class="fab fa-fw fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                                    <i class="fab fa-fw fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                                    <i class="fab fa-fw fa-dribbble"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="text-uppercase mb-4">También te puede Interesar</h4>
+                        <a href="http://startbootstrap.com"><i class="fas fa-arrow-right"></i> lavidaesuna.pe</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    <div class="copyright py-4 text-center text-white">
-        <div class="container">
-            <h6>Copyright &copy; MCC ChaclaForever / by <a href="#">Mbr</a></h6>
+        <div class="copyright py-4 text-center text-white">
+            <div class="container">
+                <h6>Copyright &copy; MCC ChaclaForever / by <a href="mailto:martinballasco@gmail.com" >Mbr - Contact</a></h6>
+            </div>
         </div>
+
+
+
     </div>
 
 
     <!-- Portfolio Modals -->
 
-    <!-- Portfolio Modal 1 -->
+    <!-- Modal Vision y Mision -->
     <div class="portfolio-modal mfp-hide" id="mision-vision">
         <div class="portfolio-modal-dialog bg-white">
             <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -287,7 +252,7 @@
         </div>
     </div>
 
-    <!-- Portfolio Modal 2 -->
+    <!-- Modal Talleres -->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
         <div class="portfolio-modal-dialog bg-white">
             <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -304,14 +269,14 @@
                             <i class="fa fa-close"></i>
                             Buscar más talleres
                         </a>
-                    
+
+                    </div>
                 </div>
             </div>
         </div>
-     </div>
-   </div>
+    </div>
 
-    <!-- Portfolio Modal 3 -->
+    <!-- Modal Actividades -->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
         <div class="portfolio-modal-dialog bg-white">
             <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -334,7 +299,7 @@
         </div>
     </div>
 
-    <!-- Portfolio Modal 4 -->
+    <!-- Modal Historia -->
     <div class="portfolio-modal mfp-hide" id="historia">
         <div class="portfolio-modal-dialog bg-white">
             <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -357,7 +322,7 @@
         </div>
     </div>
 
-    <!-- Portfolio Modal 5 -->
+    <!-- Modal Objetivos -->
     <div class="portfolio-modal mfp-hide" id="objetivos">
         <div class="portfolio-modal-dialog bg-white">
             <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -368,13 +333,13 @@
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-secondary text-black-50 mb-0">Objetivos</h2>
                         <hr class="star-dark mb-5">
-                    <img class="img-fluid mb-5" src="~/img/portfolio/portfolio/taller-deportivo.jpg" width="400" alt="">
-                    <p class="mb-5 lead us-font">
-                        .Fortalecer la respuesta comunitaria de la zona de Lima este en relación a la pre
-                        prevalencia de las ITS/VIH/Sida en nuestras comunidades, para de esta manera contribuir a la reducción del número
-                        de casos de personas pertenecientes a las poblaciones vulnerables (trans, HSH/Gays y PVVs) de nuestro
-                        distrito, todo a través de nuestro empoderamiento y trabajo articulado con el Ministerio de Salud.
-                    </p>
+                        <img class="img-fluid mb-5" src="~/img/portfolio/portfolio/taller-deportivo.jpg" width="400" alt="">
+                        <p class="mb-5 lead us-font">
+                            Fortalecer la respuesta comunitaria de la zona de Lima este en relación a la pre
+                            prevalencia de las ITS/VIH/Sida en nuestras comunidades, para de esta manera contribuir a la reducción del número
+                            de casos de personas pertenecientes a las poblaciones vulnerables (trans, HSH/Gays y PVVs) de nuestro
+                            distrito, todo a través de nuestro empoderamiento y trabajo articulado con el Ministerio de Salud.
+                        </p>
                         <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="/actividades">
                             <i class="fa fa-close"></i>
                             Cerrar
@@ -385,7 +350,7 @@
         </div>
     </div>
 
-    <!-- Portfolio Modal 6 -->
+    <!-- Modal Hazte la prueba-->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
         <div class="portfolio-modal-dialog bg-white">
             <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -397,9 +362,11 @@
                         <h2 class="text-secondary text-uppercase mb-0">Hazte la prueba!</h2>
                         <hr class="star-dark mb-5">
                         <img class="img-fluid mb-5 rounded-pill" src="~/img/portfolio/portfolio/prueba.png" alt="">
-                        <p class="mb-5 lead us-font">El VIH es una infección causada por el virus de inmunodeficia humana,que ataca las defensas del cuerpo,
-                        y deja la persona vulnerable a las infecciones y enfermedades.<br/>
-                        Puedes hacerte la prueba gratis <a class="portfolio-modal-dismiss" href="#oficinas"> aquí</a></p>
+                        <p class="mb-5 lead us-font">
+                            El VIH es una infección causada por el virus de inmunodeficia humana,que ataca las defensas del cuerpo,
+                            y deja la persona vulnerable a las infecciones y enfermedades.<br />
+                            Puedes hacerte la prueba gratis <a class="portfolio-modal-dismiss" href="#oficinas"> aquí</a>
+                        </p>
                         <a class="btn btn-primary btn-lg rounded-pill" href="https://fb.com/MCC-Chacla-Forever-513978959017333/">
                             <i class="fa fa-close"></i>
                             Me Interesa!
@@ -410,7 +377,7 @@
         </div>
     </div>
 
-    <!-- Mision-Vision Modal 7 -->
+    <!-- Example Modal -->
     <div class="portfolio-modal mfp-hide" id="mision-vision-modal-6">
         <div class="portfolio-modal-dialog">
             <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -433,6 +400,22 @@
         </div>
     </div>
 
+    <!--Sticky NavBar-->
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
