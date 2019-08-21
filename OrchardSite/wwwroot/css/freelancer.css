@@ -59,7 +59,7 @@ hr.star-dark {
 }
 
     hr.star-dark:after {
-        color: #2C3E50;
+        color: #ebb551;
         background-color: transparent;
     }
 
@@ -73,6 +73,9 @@ section {
     }
 
 @media (min-width: 992px) {
+
+
+
     section h2 {
         font-size: 3rem;
         line-height: 2.5rem;
@@ -534,12 +537,12 @@ section#oficinas {
 
 /*------------------------------------------ CAROUSELL--------------------------------------------- */
 
-#about {
+/*#about {
     background: url("../img/portfolio/nosotros2-arreglado.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+}*/
 
 .carousel-item {
     max-height: 75vh;
@@ -947,9 +950,9 @@ p {
     text-align: center;
 }
 
-.how-img img {
+    .how-img img {
         width: 40%;
-}
+    }
 
 .simple-header {
     background: #555;
@@ -965,7 +968,7 @@ p {
 }
 
 .content {
-    padding: 16px;    
+    padding: 16px;
 }
 
 .sticky + .content {
@@ -976,13 +979,35 @@ p {
     top: 100px;
 }
 
-.simple-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+#facebook {
+    border: 0px;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-bottom: 0px;
+    padding-top: 2px;
+    background-color: mediumblue;
 }
 
-.simple-nav .nav-item {
-    float: left;
+    #facebook:hover {
+        background-color: aliceblue;
+    }
+
+#whats {
+    border: 0px;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-top: 1px;
+    background-color: #25D366;
+}
+
+#telefono {
+    border: 0px;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-left: 9px;
+    padding-bottom: 0px;
+    padding-top: 2px;
+    background-color: chocolate;
 }

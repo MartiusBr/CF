@@ -109,7 +109,9 @@
                 <h3 class="text-center text-uppercase text-secondary mb-0">Nuestro Facebook</h3>
                 <hr class="star-dark mb-5">
 
-                <iframe class="ml-auto mr-auto" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMCC-Chacla-Forever-513978959017333%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                <div class="d-flex justify-content-center">
+                    <iframe class="ml-auto mr-auto" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMCC-Chacla-Forever-513978959017333%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                </div>
 
             </div>
 
@@ -131,8 +133,8 @@
             <div class="col-lg-6 mx-auto p-4 border-left border-right">
                 <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                 <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-    
-                <form method="post">       
+
+                <form method="post">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Nombre</label>
                         <input asp-for="nombre" type="text" class="form-control" placeholder="nombre">
@@ -148,7 +150,7 @@
                     <br />
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Mensaje</label>
-                        <textarea asp-for="mensaje" class="form-control"  rows="3"></textarea>
+                        <textarea asp-for="mensaje" class="form-control" rows="3"></textarea>
                     </div>
                     <br />
                     <input type="submit" />
